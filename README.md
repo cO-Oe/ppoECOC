@@ -58,27 +58,27 @@ return new_df[features], new_df[label]
 ```
 
 
-Project Structure
+## Project Structure
 ppoECOC/
-├── agent/              # For ppo agent .pth storage
-├── runs/                # For tensorboard event file storage
-├── results/            # Execution result
-├── dataset/           # Dataset files
-├── utils/ 
-│   ├── dataset.py    # Dataset loader and preprocessings
-│   ├── extract.py     # Result extractor helper functions
-│   └──  GSE.py          # Script to query GSE dataset
-├── environment.yml    # Conda environment configuration
-├── requirements.txt    # Python package requirements
-├── main.py            # Main execution script
-├── process.py       # Single dataset execution for main
-├── agent.py           # ppo agent class with transformer
-├── env.py               # RL environment implementation with ECOC
-├── decode.py        # ECOC decoding methods
-├── ppo.py              # PPO algorithm
-├── results.log        # logging results, auto generate if not exist
+├── agent/                  # For ppo agent .pth storage
+├── runs/                   # For tensorboard event file storage
+├── results/               # Execution result
+├── dataset/               # Dataset files
+├── utils/
+│   ├── dataset.py         # Dataset loader and preprocessings
+│   ├── extract.py         # Result extractor helper functions
+│   └── GSE.py             # Script to query GSE dataset
+├── environment.yml        # Conda environment configuration
+├── requirements.txt       # Python package requirements
+├── main.py               # Main execution script
+├── process.py            # Single dataset execution for main
+├── agent.py              # ppo agent class with transformer
+├── env.py                # RL environment implementation with ECOC
+├── decode.py             # ECOC decoding methods
+├── ppo.py                # PPO algorithm
+├── results.log           # logging results, auto generate if not exist
 ├── experiment.log        # For status and error logging
-└── README.md        
+└── README.md             # This file
 
 License
 MIT
